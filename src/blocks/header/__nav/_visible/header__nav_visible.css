@@ -1,0 +1,9 @@
+.header__nav_visible {
+    display: none;
+}
+
+@media (max-width: 1030px) {
+    .header__nav_visible {
+        display: block;
+    }
+}

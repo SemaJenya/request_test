@@ -1,4 +1,5 @@
 .header__nav_text {
+    text-decoration: none;
     margin: 0;
     text-transform: uppercase;
     color: #292D32;

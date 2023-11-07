@@ -2,3 +2,9 @@
     display: flex;
     column-gap: 50.77px;
 }
+
+@media (max-width: 1030px) {
+    .header__menu{
+        column-gap: 67.77px;
+    }
+}

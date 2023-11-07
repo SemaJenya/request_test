@@ -1,0 +1,7 @@
+
+
+@media (max-width: 1030px) {
+    .header__nav_menu {
+        display: none;
+    }
+}

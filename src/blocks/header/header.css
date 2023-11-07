@@ -7,4 +7,13 @@
     margin-left: auto;
     margin-right: auto;
     height: 123px;
+    position: relative;
+}
+
+@media (max-width: 1030px) {
+    .header {
+        padding: 0 15px 0;
+        height: 90px;
+        width: calc(100% - 30px);
+    }
 }

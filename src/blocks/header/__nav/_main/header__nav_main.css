@@ -1,3 +1,9 @@
 .header__nav_main {
     column-gap: 30px;
 }
+
+@media (max-width: 1030px) {
+    .header__nav_main {
+        column-gap: 15px;
+    }
+}

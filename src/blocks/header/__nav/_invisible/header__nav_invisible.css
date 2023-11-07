@@ -1,0 +1,9 @@
+.header__nav_invisible {
+    display: block;
+}
+
+@media (max-width: 1030px) {
+    .header__nav_invisible {
+        display: none;
+    }
+}

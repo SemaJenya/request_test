@@ -1,0 +1,9 @@
+.header__nav_mobile {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    background-color: white;
+    border: 1px solid salmon;
+    width: calc(100% - 76px);
+    padding: 56px 38px 64px;
+}

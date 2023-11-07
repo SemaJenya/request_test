@@ -1,0 +1,12 @@
+.header__main_burger {
+    position: absolute;
+    top: -1px;
+    left: 11px;
+    width: 28px;
+}
+
+@media (max-width: 1030px) {
+    .header__main_burger {
+        width: 25px;
+    }
+}
