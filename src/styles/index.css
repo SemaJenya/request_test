@@ -6,9 +6,11 @@
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav/header__nav.css);
-@import url(../blocks/header/__nav/_items/header__nav_item.css);
+@import url(../blocks/header/__nav/_item/header__nav_item.css);
 @import url(../blocks/header/__nav/_text/header__nav_text.css);
 @import url(../blocks/header/__nav/_main/header__nav_main.css);
+@import url(../blocks/header/__nav/_cart-number/header__nav_cart-number.css);
+@import url(../blocks/header/__nav/_cart-number-text/header__nav_cart-number-text.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu/_container/header__menu_container.css);
 @import url(../blocks/header/__menu/_search/header__menu_search.css);
