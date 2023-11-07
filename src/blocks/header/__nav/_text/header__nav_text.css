@@ -1,0 +1,11 @@
+.header__nav_text {
+    margin: 0;
+    text-transform: uppercase;
+    color: #292D32;
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

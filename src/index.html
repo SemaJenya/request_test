@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Тестовое задание</title>
-        <link rel="shortcut icon" href="favicon.ico">
-    </head>
-    <body class="page">
-        <header class="header">
 
-        </header>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="shortcut icon" href="../src/images/logo_test.svg">
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__menu">
+            <div class="header__menu_container">
+                <img class="logo" src="<%=require('./images/logo_test.svg')%>" alt="логотип" />
+                <nav>
+                    <ul class="header__nav">
+                        <li class="header__nav_item">
+                            <p class="header__nav_text">Главная</p>
+                        </li>
+                        <li class="header__nav_item">
+                            <p class="header__nav_text">Каталог</p>
+                        </li>
+                        <li class="header__nav_item">
+                            <p class="header__nav_text">Новости</p>
+                        </li>
+                        <li class="header__nav_item">
+                            <p class="header__nav_text">Наш АСЦ</p>
+                        </li>
+                        <li class="header__nav_item">
+                            <p class="header__nav_text">Контакты</p>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__menu_search">
+                <img class="search" src="<%=require('./images/fi-rr-search.svg')%>"/>
+            </div>
+        </div>
+        <div class="header__main">
+            <p class="header__main_name"></p>
+            <nav>
+                <ul class="header__nav header__nav_main">
+                    <li class="header__nav_item">
+                        <img class="header__main_icon" src="<%=require('./images/profile.svg')%>" alt="профиль"/>
+                    </li>
+                    <li class="header__nav_item">
+                        <img class="header__main_icon" src="<%=require('./images/net.svg')%>" alt="сеть, хоть и сомневаюсь сильно"/>
+                    </li>
+                    <li class="header__nav_item">
+                        <img class="header__main_icon" src="<%=require('./images/like.png')%>" alt="лайк"/>
+                    </li>
+                    <li class="header__nav_item">
+                        <img class="header__main_icon" src="<%=require('./images/cart.svg')%>" alt="корзина"/>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+</body>
+
 </html>

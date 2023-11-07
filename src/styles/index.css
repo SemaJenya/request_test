@@ -1,2 +1,20 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 
+@import url(../blocks/page/page.css);
+
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav/_items/header__nav_item.css);
+@import url(../blocks/header/__nav/_text/header__nav_text.css);
+@import url(../blocks/header/__nav/_main/header__nav_main.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_container/header__menu_container.css);
+@import url(../blocks/header/__menu/_search/header__menu_search.css);
+
+@import url(../blocks/header/__main/header__main.css);
+@import url(../blocks/header/__main/_icon/header__main_icon.css);
+
+@import url(../blocks/search/search.css);
+@import url(../blocks/logo/logo.css);

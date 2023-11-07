@@ -1,0 +1,8 @@
+.page {
+    background-color: white;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    position: relative;
+    height: 100%;
+}
