@@ -1,6 +1,12 @@
 .header__main_icon {
     width: 49px;
     height: 49px;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__main_icon:hover {
+    opacity: 0.6;
 }
 
 @media (max-width: 1030px) {

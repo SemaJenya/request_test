@@ -1,0 +1,14 @@
+.header__profile-menu_hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__profile-menu_hover:hover {
+    background-color: rgb(198, 193, 193);
+}
+
+.header__profile-menu_hover:last-child:hover {
+    border-bottom: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

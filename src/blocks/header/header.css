@@ -8,6 +8,7 @@
     margin-right: auto;
     height: 123px;
     position: relative;
+    background-color: var(--Unnamed-Color, #FFF);
 }
 
 @media (max-width: 1030px) {

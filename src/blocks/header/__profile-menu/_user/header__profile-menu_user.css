@@ -1,0 +1,31 @@
+.header__profile-menu_user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30.49px 0 30px 30px;
+    border-bottom: 1px solid  rgba(242, 242, 242, 1);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.header__profile-menu_user::before {
+    content: ''; 
+    border: 18px solid transparent; /* Прозрачные границы */
+    border-bottom: 18px solid #FFF; /* Добавляем треугольник */
+    position: absolute; 
+    border-radius: 2px;
+    top: -33px;
+    left: 183.5px;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__profile-menu_user:hover::before {
+    content: ''; 
+    border: 18px solid transparent; /* Прозрачные границы */
+    border-bottom: 18px solid rgb(198, 193, 193); /* Добавляем треугольник */
+    position: absolute; 
+    border-radius: 2px;
+    top: -33px;
+    left: 183.5px;
+}

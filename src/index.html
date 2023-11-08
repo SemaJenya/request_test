@@ -38,11 +38,33 @@
             </div>
         </div>
         <div class="header__main">
-            <p class="header__main_name"></p>
+            <p class="header__main_name">Evgeniia</p>
             <nav>
                 <ul class="header__nav header__nav_main">
                     <li class="header__nav_item">
-                        <img class="header__main_icon" src="<%=require('./images/profile.svg')%>" alt="профиль"/>
+                        <img id="profile" class="header__main_icon" src="<%=require('./images/profile.svg')%>" alt="профиль"/>
+                        <div class="header__profile-menu ">
+                            <div class="header__profile-menu_user header__profile-menu_hover">
+                                <img class="header__main_icon" src="<%=require('./images/profile.svg')%>" alt="профиль"/>
+                                <p class="header__main_name">Evgeniia</p>
+                            </div>
+                            <nav>
+                                <ul class="header__profile-menu_list">
+                                    <li class="header__nav_item header__profile-menu_hover">
+                                        <a class="header__profile-menu_item">Личный кабинет</a>
+                                    </li>
+                                    <li class="header__nav_item header__profile-menu_hover">
+                                        <a class="header__profile-menu_item">История заказов</a>
+                                    </li>
+                                    <li class="header__nav_item header__profile-menu_hover">
+                                        <a class="header__profile-menu_item">Персональные предложения</a>
+                                    </li>
+                                    <li class="header__nav_item header__profile-menu_hover header__profile-menu_out">
+                                        <a class="header__profile-menu_item header__profile-menu_out">Выйти</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </li>
                     <li class="header__nav_item header__nav_invisible">
                         <img class="header__main_icon" src="<%=require('./images/net.svg')%>" alt="сеть, хоть и сомневаюсь сильно"/>

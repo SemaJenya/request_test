@@ -23,6 +23,16 @@
 @import url(../blocks/header/__main/header__main.css);
 @import url(../blocks/header/__main/_icon/header__main_icon.css);
 @import url(../blocks/header/__main/_burger/header__main_burger.css);
+@import url(../blocks/header/__main/_name/header__main_name.css);
+
+@import url(../blocks/header/__profile-menu/header__profile-menu.css);
+@import url(../blocks/header/__profile-menu/_user/header__profile-menu_user.css);
+@import url(../blocks/header/__profile-menu/_item/header__profile-menu_item.css);
+@import url(../blocks/header/__profile-menu/_list/header__profile-menu_list.css);
+@import url(../blocks/header/__profile-menu/_hover/header__profile-menu_hover.css);
+@import url(../blocks/header/__profile-menu/_out/header__profile-menu_out.css);
+@import url(../blocks/header/__profile-menu/_active/header__profile-menu_active.css);
+
 
 @import url(../blocks/search/search.css);
 @import url(../blocks/logo/logo.css);

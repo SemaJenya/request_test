@@ -1,0 +1,9 @@
+.header__main_name {
+    margin: 0 20px 0 0;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}

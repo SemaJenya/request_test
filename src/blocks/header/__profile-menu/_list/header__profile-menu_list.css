@@ -1,0 +1,11 @@
+.header__profile-menu_list {
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}

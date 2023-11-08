@@ -1,0 +1,11 @@
+.header__profile-menu {
+    display: none;
+    position: absolute;
+    top: 88px;
+    left: -178px;
+    width: 405px;
+    height: 389px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+

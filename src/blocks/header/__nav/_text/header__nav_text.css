@@ -9,4 +9,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    color: rgba(41, 45, 50, 1);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__nav_text:hover {
+    opacity: 0.6;
 }
