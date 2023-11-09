@@ -97,3 +97,24 @@
 @import url(../blocks/advantages/__element/_img/advantages__element_img.css);
 @import url(../blocks/advantages/__element/_title/advantages__element_title.css);
 @import url(../blocks/advantages/__element/_subtitle/advantages__element_subtitle.css);
+
+
+/* News */
+
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news/__text/news__text.css);
+@import url(../blocks/news/__text/_subtitle/news__text_subtitle.css);
+@import url(../blocks/news/__text/_title/news__text_title.css);
+@import url(../blocks/news/__items/news__items.css);
+@import url(../blocks/news/__element/news__element.css);
+@import url(../blocks/news/__element/_img/news__element_img.css);
+@import url(../blocks/news/__element/_button-box/news__element_button-box.css);
+@import url(../blocks/news/__element/_el/news__element_el.css);
+@import url(../blocks/news/__element/_botton/news__element_button.css);
+@import url(../blocks/news/__element/_arrow/news__element_arrow.css);
+@import url(../blocks/news/__element/_title/news__element_title.css);
+@import url(../blocks/news/__element/_subtitle/news__element_subtitle.css);
+@import url(../blocks/news/__element/_date/news__element_date.css);
+@import url(../blocks/news/__element/_number/news__element_number.css);
+@import url(../blocks/news/__element/_month/news__element_month.css);

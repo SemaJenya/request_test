@@ -1,0 +1,7 @@
+.news__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(324px, 415px));
+    grid-auto-rows: 327px;
+    column-gap: 65px;
+    row-gap: 50px;
+}

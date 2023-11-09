@@ -1,0 +1,13 @@
+.news__element_button-box {
+    /* clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z'); */
+    background-color: white;
+    display: flex;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 190px;
+    right: 23px;
+    /* border: 1px solid saddlebrown; */
+    border-radius: 50%;
+    z-index: 2;
+}

@@ -1,0 +1,12 @@
+.news__element {
+    background-image: url('../../../images/Rectangle105.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 0 left 0;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 45px;
+    padding: 0 20px 26px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

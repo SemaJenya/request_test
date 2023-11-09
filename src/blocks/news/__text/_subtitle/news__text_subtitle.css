@@ -1,0 +1,10 @@
+.news__text_subtitle {
+    color: var(--Unnamed-Color, #838383);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; 
+    margin: 0;
+    max-width: 721px;
+}

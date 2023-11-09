@@ -1,0 +1,7 @@
+.news__element_el {
+    position: absolute;
+    z-index: 2;
+    top: 205px;
+    right: 10px;
+    width: 97px;
+}
