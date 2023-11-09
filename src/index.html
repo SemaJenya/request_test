@@ -137,7 +137,7 @@
                 <p class="firstscreen__offer_title">Выгодное предложение от Dell</p>
             </div>
 
-
+            <!-- Catalog -->
         </section>
         <section class="catalog">
             <div class="catalog__main">
@@ -151,56 +151,107 @@
                     <p class="firstscreen__more-details_text">В каталог</p>
                 </div>
             </div>
-
-
             <a class="catalog__item">
                 <p class="catalog__item_number">01</p>
                 <div class="catalog__item_text">
                     <p class="catalog__item_subtitle">105 товаров</p>
                     <p class="catalog__item_title">Ноутбуки</p>
                 </div>
-                <img class="catalog__item_laptop" src="<%=require('./images/laptop.svg')%>" alt="ноутбук"/>
+                <img class="catalog__item_laptop" src="<%=require('./images/laptop.svg')%>" alt="ноутбук" />
             </a>
-
             <a class="catalog__item">
                 <p class="catalog__item_number">02</p>
                 <div class="catalog__item_text">
                     <p class="catalog__item_subtitle">65 товаров</p>
                     <p class="catalog__item_title">Персональные компьютеры</p>
                 </div>
-                <img class="catalog__item_pc" src="<%=require('./images/pc.svg')%>" alt="ноутбук"/>
+                <img class="catalog__item_pc" src="<%=require('./images/pc.svg')%>" alt="ноутбук" />
             </a>
-
             <a class="catalog__item">
                 <p class="catalog__item_number">03</p>
                 <div class="catalog__item_text">
                     <p class="catalog__item_subtitle">13 товаров</p>
                     <p class="catalog__item_title">Cерверы</p>
                 </div>
-                <img class="catalog__item_server" src="<%=require('./images/server.svg')%>" alt="ноутбук"/>
+                <img class="catalog__item_server" src="<%=require('./images/server.svg')%>" alt="ноутбук" />
             </a>
-
             <a class="catalog__item">
                 <p class="catalog__item_number">04</p>
                 <div class="catalog__item_text">
                     <p class="catalog__item_subtitle">2345 товаров</p>
                     <p class="catalog__item_title">Dell EMC</p>
                 </div>
-                <img class="catalog__item_emc" src="<%=require('./images/emc.svg')%>" alt="ноутбук"/>
+                <img class="catalog__item_emc" src="<%=require('./images/emc.svg')%>" alt="ноутбук" />
             </a>
-
             <a class="catalog__item">
                 <p class="catalog__item_number">05</p>
                 <div class="catalog__item_text">
                     <p class="catalog__item_subtitle">2345 товаров</p>
                     <p class="catalog__item_title">Dell EMC</p>
                 </div>
-                <img class="catalog__item_parts" src="<%=require('./images/parts.svg')%>" alt="ноутбук"/>
+                <img class="catalog__item_parts" src="<%=require('./images/parts.svg')%>" alt="ноутбук" />
             </a>
+        </section>
+
+        <!-- Advantages -->
+        <section class="advantages">
+            <div class="advantages__text">
+                <p class="advantages__text_title">Наши преимущества</p>
+                <p class="advantages__text_subtitle">Оптимизация мощностей (расходов, социальных выплат&nbsp;и&nbsp;т.п.)
+                    позволили компании на&nbsp;4,7% понизить цены по&nbsp;сравнению с&nbsp;конкурентами
+                </p>
+                <div class="firstscreen__more-details">
+                    <div class="firstscreen__more-details_button">
+                        <img src="<%=require('./images/strelka.svg')%>" alt="стрелка" />
+                    </div>
+                    <p class="firstscreen__more-details_text">Оставить заявку</p>
+                </div>
+            </div>
+            <img class="advantages__main-img" src="<%=require('./images/laptopAdv.svg')%>" />
 
 
 
+                <div class="advantages__items">
+                    <div class="advantages__element">
+                        <div class="advantages__element_icon">
+                            <img class="advantages__element_img" src="<%=require('./images/card.svg')%>"/>
+                        </div>
+                        <p class="advantages__element_title">Самые выгодные и&nbsp;низкие цены</p>
+                        <p class="advantages__element_subtitle">В наличии широкий ассортимент,
+                             а&nbsp;также доступные цены на ноутбуки Dell
+                        </p>
+                    </div>
 
+                    <div class="advantages__element">
+                        <div class="advantages__element_icon">
+                            <img class="advantages__element_img" src="<%=require('./images/advOk.svg')%>"/>
+                        </div>
+                        <p class="advantages__element_title">Авторизованный сервисный центр DELL</p>
+                        <p class="advantages__element_subtitle">Сертифицированный сервисный центр по&nbsp;ремонту техники Dell
+                             в&nbsp;России и&nbsp;странах&nbsp;СНГ
+                        </p>
+                    </div>
+
+                    <div class="advantages__element">
+                        <div class="advantages__element_icon">
+                            <img class="advantages__element_img" src="<%=require('./images/advPeople.svg')%>"/>
+                        </div>
+                        <p class="advantages__element_title">Высокий уровень технической экспертизы</p>
+                        <p class="advantages__element_subtitle">Мы&nbsp;прошли аттестацию в виде тестирования,
+                             где&nbsp;показали высокий уровень знаний
+                        </p>
+                    </div>
+
+                    <div class="advantages__element">
+                        <div class="advantages__element_icon">
+                            <img class="advantages__element_img" src="<%=require('./images/advCube.svg')%>"/>
+                        </div>
+                        <p class="advantages__element_title">Официальный партнер DELL</p>
+                        <p class="advantages__element_subtitle">Официальный поставщик продукции DELL в&nbsp;России и странах&nbsp;СНГ
+                        </p>
+                    </div>
+
+                </div>
 
         </section>
     </main>

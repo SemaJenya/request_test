@@ -1,0 +1,8 @@
+.advantages__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 518px;
+    width: 100%;
+    padding: 183px 0 0 983px;
+    margin-bottom: 180px;
+}

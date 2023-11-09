@@ -82,3 +82,17 @@
 @import url(../blocks/catalog/__item/_emc/catalog__item_emc.css);
 @import url(../blocks/catalog/__item/_parts/catalog__item_parts.css);
 
+/* Advantages */
+
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__text/advantages__text.css);
+@import url(../blocks/advantages/__grid-container/advantages__grid-container.css);
+@import url(../blocks/advantages/__text/_subtitle/advantages__text_subtitle.css);
+@import url(../blocks/advantages/__text/_title/advantages__text_title.css);
+@import url(../blocks/advantages/__main-img/advantages__main-img.css);
+@import url(../blocks/advantages/__items/advantages__items.css);
+@import url(../blocks/advantages/__element/advantages__element.css);
+@import url(../blocks/advantages/__element/_icon/advantages__element_icon.css);
+@import url(../blocks/advantages/__element/_img/advantages__element_img.css);
+@import url(../blocks/advantages/__element/_title/advantages__element_title.css);
+@import url(../blocks/advantages/__element/_subtitle/advantages__element_subtitle.css);

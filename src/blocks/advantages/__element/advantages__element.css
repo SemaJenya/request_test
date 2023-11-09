@@ -1,0 +1,8 @@
+.advantages__element {
+    background-color: #292D32;
+    border-radius: 18px;
+    background-image: url('../../../images/advElBack.svg');
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+    padding: 30px 24px 35px 30px;
+}

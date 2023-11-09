@@ -1,0 +1,7 @@
+.advantages__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 345px));
+    grid-auto-rows: 289px;
+    gap: 27px;
+    justify-content: center;
+}
