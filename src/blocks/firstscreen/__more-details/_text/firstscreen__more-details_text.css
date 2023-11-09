@@ -7,3 +7,9 @@
     font-weight: 400;
     line-height: 30px; 
 }
+
+@media (max-width: 610px) {
+    .firstscreen__more-details_text {
+        font-size: 15px;
+    }
+}

@@ -6,3 +6,15 @@
     padding: 183px 0 0 983px;
     margin-bottom: 180px;
 }
+
+@media (max-width: 1610px) {
+    .advantages__text {
+        padding: 101px 0 0 15px;
+    }
+}
+
+@media (max-width: 610px) {
+    .advantages__text {
+        margin-bottom: 179px;
+    }
+}

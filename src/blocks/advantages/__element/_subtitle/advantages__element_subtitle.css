@@ -7,3 +7,9 @@
     line-height: normal;
     margin: 0;
 }
+
+/* @media (max-width: 610px) {
+    .advantages__element_subtitle {
+        font-size: 18px;
+    }
+} */

@@ -8,3 +8,9 @@
     width: 276px;
     margin: 0 0 13px 0;
 }
+
+@media (max-width: 610px) {
+    .advantages__element_title {
+        font-size: 18px;
+    }
+}

@@ -5,3 +5,12 @@
     width: 874px;
     height: 492px;
 }
+
+@media (max-width: 1080px) {
+    .advantages__main-img {
+        width: 345px;
+        height: 194px;
+        top: 283px;
+        left: 76px;
+    }
+}

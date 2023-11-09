@@ -10,3 +10,19 @@
     flex-direction: column;
     margin-bottom: 172px;
 }
+
+
+@media (max-width: 1460px) {
+    .advantages {
+        height: 1251px;
+    }
+}
+
+@media (max-width: 610px) {
+    .advantages {
+        overflow: hidden;
+        height: 1546px;
+        background-position: top 373px left 14px;
+        background-size: 335px 121px;
+    }
+}

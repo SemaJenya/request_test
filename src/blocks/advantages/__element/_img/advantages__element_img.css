@@ -2,3 +2,10 @@
     width: 36.109px;
     height: 36.109px;
 }
+
+@media (max-width: 610px) {
+    .advantages__element_img {
+        width: 31px;
+        height: 31px;
+    }
+}

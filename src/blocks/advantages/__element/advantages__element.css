@@ -6,3 +6,10 @@
     background-position: top 0 right 0;
     padding: 30px 24px 35px 30px;
 }
+
+
+@media (max-width: 610px) {
+    .advantages__element {
+        padding: 15px 11px 18px 15px;
+    }
+}
