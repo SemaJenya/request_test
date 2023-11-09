@@ -1,0 +1,17 @@
+.catalog__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--Unnamed-Color, #F2F2F2);
+    border-radius: 20px;
+    padding: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+@media (max-width: 700px) {
+    .catalog__item {
+        padding: 15px 22px 20px 20px;
+    }
+}

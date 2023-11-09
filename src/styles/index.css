@@ -62,3 +62,23 @@
 @import url(../blocks/firstscreen/__offer/_arrow/firstscreen__offer_arrow.css);
 
 @import url(../blocks/swiper/swiper.css);
+
+
+/* Catalog */
+
+@import url(../blocks/catalog/catalog.css);
+@import url(../blocks/catalog/__main/_title/catalog__main_title.css);
+@import url(../blocks/catalog/__main/catalog__main.css);
+@import url(../blocks/catalog/__main/_subtitle/catalog__main_subtitle.css);
+
+@import url(../blocks/catalog/__item/catalog__item.css);
+@import url(../blocks/catalog/__item/_number/catalog__item_number.css);
+@import url(../blocks/catalog/__item/_subtitle/catalog__item_subtitle.css);
+@import url(../blocks/catalog/__item/_text/catalog__item_text.css);
+@import url(../blocks/catalog/__item/_title/catalog__item_title.css);
+@import url(../blocks/catalog/__item/_laptop/catalog__item_laptop.css);
+@import url(../blocks/catalog/__item/_pc/catalog__item_pc.css);
+@import url(../blocks/catalog/__item/_server/catalog__item_server.css);
+@import url(../blocks/catalog/__item/_emc/catalog__item_emc.css);
+@import url(../blocks/catalog/__item/_parts/catalog__item_parts.css);
+

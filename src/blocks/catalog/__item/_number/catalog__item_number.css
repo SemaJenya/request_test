@@ -1,0 +1,16 @@
+.catalog__item_number {
+    color: #292D32;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%; 
+    margin: 0;
+}
+
+
+@media (max-width: 700px) {
+    .catalog__item_number {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,18 @@
+.catalog {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    grid-template-rows: repeat(2, 371px);
+    gap: 40px;
+    padding: 0 260px;
+}
+
+
+@media (max-width: 700px) {
+    .catalog {
+        padding: 0 15px;
+        grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+        grid-template-rows: 238px repeat(5, 275px);
+        gap: 20.47px;
+    }
+}

@@ -1,0 +1,15 @@
+.catalog__item_parts {
+    position: absolute;
+    left: 87px;
+    top: 38px;
+}
+
+
+@media (max-width: 700px) {
+    .catalog__item_parts   {
+        left: 68.22px;
+        top: 29.8px;
+        width: 253.3px;
+        height: 167px;
+    }
+}

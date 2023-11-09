@@ -1,0 +1,14 @@
+.catalog__item_emc {
+    position: absolute;
+    left: 75px;
+    top: 59px;
+}
+
+@media (max-width: 700px) {
+    .catalog__item_emc   {
+        left: 58.81px;
+        top: 46.26px;
+        width: 226.6px;
+        height: 124.7px;
+    }
+}

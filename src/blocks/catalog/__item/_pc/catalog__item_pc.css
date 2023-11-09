@@ -1,0 +1,15 @@
+.catalog__item_pc {
+    position: absolute;
+    left: 115px;
+    top: -21px;
+}
+
+
+@media (max-width: 700px) {
+    .catalog__item_pc   {
+        left: 99px;
+        top: 10.53px;
+        width: 210px;
+        height: 193px;
+    }
+}

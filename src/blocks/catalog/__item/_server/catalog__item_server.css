@@ -1,0 +1,15 @@
+.catalog__item_server {
+    position: absolute;
+    left: 51px;
+    top: 81px;
+}
+
+
+@media (max-width: 700px) {
+    .catalog__item_server   {
+        left: 39.99px;
+        top: 63.51px;
+        width: 264.2px;
+        height: 107.4px;
+    }
+}
