@@ -9,3 +9,16 @@
     max-width: 181px;
     width: 100%;
 }
+
+@media (max-width: 1610px) {
+    .firstscreen__offer_title  {
+        /* align-items: center; */
+        height: 196px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        width: 136px;
+        padding-left: 15px;
+        /* justify-content: center; */
+    }
+}

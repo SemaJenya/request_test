@@ -1,0 +1,11 @@
+.firstscreen__swiper_img {
+    width: 557px;
+    height: 555px;
+}
+
+@media (max-width: 1270px) {
+    .firstscreen__swiper_img  {
+        width: 327px;
+        height: 325px;
+    }
+}

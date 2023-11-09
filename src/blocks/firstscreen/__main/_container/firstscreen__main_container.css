@@ -3,3 +3,10 @@
     flex-direction: column;
     padding: 253px 0 158px 108px;
 }
+
+
+@media (max-width: 1270px) {
+    .firstscreen__main_container  {
+        padding: 80px 15px 0 15px;
+    }
+}

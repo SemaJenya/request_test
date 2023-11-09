@@ -29,6 +29,6 @@ export const swiper = new Swiper('.swiper', {
   });
 
 
-  // swiperNext.addEventListener('click', () => {
-  //   swiper.slideNext();
-  // })
+  swiperNext.addEventListener('click', () => {
+    swiper.slideNext();
+  })

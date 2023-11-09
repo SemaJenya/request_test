@@ -54,6 +54,7 @@
 
 @import url(../blocks/firstscreen/__swiper/firstscreen__swiper.css);
 @import url(../blocks/firstscreen/__swiper/_next/swiper_next.css);
+@import url(../blocks/firstscreen/__swiper/_img/firstscreen__swiper_img.css);
 
 @import url(../blocks/firstscreen/__offer/firstscreen__offer.css);
 @import url(../blocks/firstscreen/__offer/_title/firstscreen__offer_title.css);

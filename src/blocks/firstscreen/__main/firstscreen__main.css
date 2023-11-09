@@ -7,3 +7,13 @@
     background-position: top 97.4px left 260px;
     display: flex;
 }
+
+
+@media (max-width: 1270px) {
+    .firstscreen__main {
+        flex-direction: column;
+        height: 593px;
+        background-size: 293px 77px;
+        background-position: top 18px left 32px;
+    }
+}

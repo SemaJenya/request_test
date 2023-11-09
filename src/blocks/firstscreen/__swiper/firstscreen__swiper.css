@@ -5,3 +5,12 @@
     padding: 74px 60px 54px 0;
     position: relative;
 }
+
+
+@media (max-width: 1270px) {
+    .firstscreen__swiper {
+        padding: 10px 25px 10px 23px;
+        width: 327px;
+        height: 325px;
+    }
+}

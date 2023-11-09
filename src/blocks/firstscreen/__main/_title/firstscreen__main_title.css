@@ -8,3 +8,11 @@
     font-weight: 400;
     line-height: normal;
 }
+
+
+@media (max-width: 1270px) {
+    .firstscreen__main_title {
+        font-size: 30px;
+        margin: 0 0 28px;
+    }
+}
