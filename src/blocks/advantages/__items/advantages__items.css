@@ -8,6 +8,7 @@
 
 @media (max-width: 610px) {
     .advantages__items {
-        grid-auto-rows: 221px;
+        grid-auto-rows: 214px;
+        gap: 17px;
     }
 }
