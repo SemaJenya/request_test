@@ -14,5 +14,6 @@
     .firstscreen__main_title {
         font-size: 30px;
         margin: 0 0 28px;
+        width: 300px;
     }
 }

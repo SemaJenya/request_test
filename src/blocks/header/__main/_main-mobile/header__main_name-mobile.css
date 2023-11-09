@@ -1,0 +1,7 @@
+
+
+@media (max-width: 610px) {
+    .header__main_name-mobile {
+        display: none;
+    }
+}
