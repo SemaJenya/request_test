@@ -7,6 +7,12 @@
     padding: 40px;
     position: relative;
     cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.catalog__item:hover {
+    opacity: 0.7;
 }
 
 
