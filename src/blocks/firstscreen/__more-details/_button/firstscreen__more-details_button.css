@@ -1,0 +1,16 @@
+.firstscreen__more-details_button {
+    width: 55px;
+    height: 55px;
+    background-color: rgba(51, 169, 255, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.firstscreen__more-details_button:hover {
+    opacity: 0.7;
+}

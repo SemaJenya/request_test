@@ -1,0 +1,5 @@
+.firstscreen__main_container {
+    display: flex;
+    flex-direction: column;
+    padding: 253px 0 158px 108px;
+}

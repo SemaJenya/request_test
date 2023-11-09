@@ -1,0 +1,12 @@
+.firstscreen__main_scroll-text {
+    margin: 0;
+    color: var(--Unnamed-Color, #838383);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+    flex-shrink: 0;
+}

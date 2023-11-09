@@ -36,3 +36,27 @@
 
 @import url(../blocks/search/search.css);
 @import url(../blocks/logo/logo.css);
+
+
+/* FirstScreen */
+
+@import url(../blocks/firstscreen/firstscreen.css);
+@import url(../blocks/firstscreen/__main/firstscreen__main.css);
+@import url(../blocks/firstscreen/__main/_scroll-container/firstscreen__main_scroll-container.css);
+@import url(../blocks/firstscreen/__main/_scroll-text/firstscreen__main_scroll-text.css);
+@import url(../blocks/firstscreen/__main/_scroll-img/firstscreen__main_scroll-img.css);
+@import url(../blocks/firstscreen/__main/_container/firstscreen__main_container.css);
+@import url(../blocks/firstscreen/__main/_subtitle/firstscreen__main_subtitle.css);
+@import url(../blocks/firstscreen/__main/_title/firstscreen__main_title.css);
+@import url(../blocks/firstscreen/__more-details/firstscreen__more-details.css);
+@import url(../blocks/firstscreen/__more-details/_button/firstscreen__more-details_button.css);
+
+
+@import url(../blocks/firstscreen/__swiper/firstscreen__swiper.css);
+@import url(../blocks/firstscreen/__swiper/_next/swiper_next.css);
+
+@import url(../blocks/firstscreen/__offer/firstscreen__offer.css);
+@import url(../blocks/firstscreen/__offer/_title/firstscreen__offer_title.css);
+@import url(../blocks/firstscreen/__offer/_arrow/firstscreen__offer_arrow.css);
+
+@import url(../blocks/swiper/swiper.css);

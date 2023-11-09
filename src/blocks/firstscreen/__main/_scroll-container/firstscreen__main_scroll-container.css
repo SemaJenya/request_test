@@ -1,0 +1,10 @@
+.firstscreen__main_scroll-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width: 25px;
+    padding: 357px 0 158px 263px;
+    gap: 16.5px;
+    align-items: center;
+}

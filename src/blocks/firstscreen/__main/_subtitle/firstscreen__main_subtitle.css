@@ -1,0 +1,10 @@
+.firstscreen__main_subtitle {
+    margin: 0 0 15px;
+
+    color: var(--Unnamed-Color, #838383);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 133.687%;
+}

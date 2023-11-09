@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Тестовое задание</title>
     <link rel="shortcut icon" href="../src/images/logo_test.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body class="page">
@@ -34,7 +35,7 @@
                 </nav>
             </div>
             <div class="header__menu_search">
-                <img class="search" src="<%=require('./images/fi-rr-search.svg')%>"/>
+                <img class="search" src="<%=require('./images/fi-rr-search.svg')%>" />
             </div>
         </div>
         <div class="header__main">
@@ -42,10 +43,12 @@
             <nav>
                 <ul class="header__nav header__nav_main">
                     <li class="header__nav_item">
-                        <img id="profile" class="header__main_icon" src="<%=require('./images/profile.svg')%>" alt="профиль"/>
+                        <img id="profile" class="header__main_icon" src="<%=require('./images/profile.svg')%>"
+                            alt="профиль" />
                         <div class="header__profile-menu ">
                             <div class="header__profile-menu_user header__profile-menu_hover">
-                                <img class="header__main_icon" src="<%=require('./images/profile.svg')%>" alt="профиль"/>
+                                <img class="header__main_icon" src="<%=require('./images/profile.svg')%>"
+                                    alt="профиль" />
                                 <p class="header__main_name">Evgeniia</p>
                             </div>
                             <nav>
@@ -67,21 +70,24 @@
                         </div>
                     </li>
                     <li class="header__nav_item header__nav_invisible">
-                        <img class="header__main_icon" src="<%=require('./images/net.svg')%>" alt="сеть, хоть и сомневаюсь сильно"/>
+                        <img class="header__main_icon" src="<%=require('./images/net.svg')%>"
+                            alt="сеть, хоть и сомневаюсь сильно" />
                     </li>
                     <li class="header__nav_item header__nav_invisible">
-                        <img class="header__main_icon" src="<%=require('./images/like.png')%>" alt="лайк"/>
+                        <img class="header__main_icon" src="<%=require('./images/like.png')%>" alt="лайк" />
                     </li>
                     <li class="header__nav_item">
-                        <img class="header__main_icon" src="<%=require('./images/cart.svg')%>" alt="корзина"/>
+                        <img class="header__main_icon" src="<%=require('./images/cart.svg')%>" alt="корзина" />
                         <div class="header__nav_cart-number">
                             <p class="header__nav_cart-number-text">3</p>
                         </div>
                     </li>
                     <li id="header-menu" class="header__nav_item header__nav_visible">
-                        <img class="header__main_icon" src="<%=require('./images/Меню.svg')%>" alt="меню"/>
-                        <img id="menu" class="header__main_icon header__main_burger" src="<%=require('./images/burger-menu.svg')%>" alt="меню"/>
-                        <img id="cross" class="header__main_icon header__main_burger" hidden src="<%=require('./images/cross.svg')%>" alt="меню"/>
+                        <img class="header__main_icon" src="<%=require('./images/Меню.svg')%>" alt="меню" />
+                        <img id="menu" class="header__main_icon header__main_burger"
+                            src="<%=require('./images/burger-menu.svg')%>" alt="меню" />
+                        <img id="cross" class="header__main_icon header__main_burger" hidden
+                            src="<%=require('./images/cross.svg')%>" alt="меню" />
                     </li>
                 </ul>
             </nav>
@@ -89,8 +95,76 @@
         </div>
     </header>
 
+    <main class="main">
+        <section class="firstscreen">
+            <div class="firstscreen__main">
+                <div class="firstscreen__main_scroll-container">
+                    <p class="firstscreen__main_scroll-text">Scroll to catalog</p>
+                    <img class="firstscreen__main_scroll-img" src="<%=require('./images/Union.svg')%>" />
+                </div>
+                <div class="firstscreen__main_container">
+                    <p class="firstscreen__main_subtitle">Новое поступление</p>
+                    <p class="firstscreen__main_title">Лучшие товары от компании Dell</p>
+                    <div class="firstscreen__more-details">
+                        <div class="firstscreen__more-details_button">
+                            <img src="<%=require('./images/strelka.svg')%>" alt="стрелка" />
+                        </div>
+                        <p class="firstscreen__more-details_text">Подробнее</p>
+                    </div>
+                </div>
+                <div class="firstscreen__swiper">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="<%=require('./images/photo.png')%>" /></div>
+                            <div class="swiper-slide"><img src="<%=require('./images/photo.png')%>" /></div>
+                            <div class="swiper-slide"><img src="<%=require('./images/photo.png')%>" /></div>
+                            <div class="swiper-slide"><img src="<%=require('./images/photo.png')%>" /></div>
+                            <div class="swiper-slide"><img src="<%=require('./images/photo.png')%>" /></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <!-- <div class="swiper-button-prev"></div> -->
+                        <!-- <div class="swiper-button-next"></div>                     -->
+                    </div>
+                    <!-- <img id="swiperNext" src="<%=require('./images/Vector.svg')%>" class="swiper_next"/> -->
+                </div>
+
+            </div>
+            <div class="firstscreen__offer">
+                <p class="firstscreen__offer_title">Выгодное предложение от Dell</p>
+                <a>
+                    <img src="<%=require('./images/Vector.svg')%>" class="firstscreen__offer_arrow" />
+                </a>
+            </div>
 
 
+        </section>
+    </main>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+    // Optional parameters
+
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+    </script> -->
 </body>
 
 </html>

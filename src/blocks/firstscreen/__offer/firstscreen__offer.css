@@ -1,0 +1,12 @@
+.firstscreen__offer {
+    background-image: url('../../../images/photoright.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    max-width: 509px;
+    width: 100%;
+    background-color: var(--Unnamed-Color, #F9F9F9);
+    padding-top: 321px;
+    padding-left: 40px;
+    gap: 82px;
+}

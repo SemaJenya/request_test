@@ -1,0 +1,17 @@
+.swiper_next {
+    position: absolute;
+    top: 499px;
+    left: 657px;
+    width: 105.5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    z-index: 55;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.swiper_next:hover {
+   opacity: 0.6;
+}
