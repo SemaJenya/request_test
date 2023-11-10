@@ -1,0 +1,6 @@
+.footer__nav {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(141px, 214px));
+    grid-auto-rows: 179px;
+    column-gap: 180px;
+}

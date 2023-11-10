@@ -1,0 +1,16 @@
+.footer__item_link {
+    text-decoration: none;
+    color: #292D32;
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.footer__item_link:hover {
+    opacity: 0.7;
+}
