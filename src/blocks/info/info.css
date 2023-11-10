@@ -1,0 +1,8 @@
+.info {
+    width: 100%;
+    height: 1022px;
+    border: 1px solid salmon;
+    position: relative;
+    /* background: linear-gradient(to bottom, transparent 50%, red 50%); */
+    /* background: linear-gradient(0deg, #EEE 0%, #EEE 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url('../../images/ourcontacts.svg'), lightgray 0px -382.687px / 100% 205.208% no-repeat; */
+}

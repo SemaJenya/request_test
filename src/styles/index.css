@@ -120,3 +120,20 @@
 @import url(../blocks/news/__element/_month/news__element_month.css);
 @import url(../blocks/news/__button/news__button.css);
 @import url(../blocks/news/__element/_invisible/news__element_invisible.css);
+
+/* Info */
+
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__background/info__background.css);
+@import url(../blocks/info/__content/info__content.css);
+@import url(../blocks/info/__contacts/info__contacts.css);
+@import url(../blocks/info/__application/info__application.css);
+@import url(../blocks/info/__contacts/_title/info__contacts_title.css);
+@import url(../blocks/info/__contacts/_subtitle/info__contacts_subtitle.css);
+@import url(../blocks/info/__contacts/_item/info__contacts_item.css);
+@import url(../blocks/info/__contacts/_list/info__contacts_list.css);
+@import url(../blocks/info/__contacts/_name/info__contacts_name.css);
+@import url(../blocks/info/__contacts/_content/info__contacts_content.css);
+@import url(../blocks/info/__contacts/_box/info__contacts_box.css);
+@import url(../blocks/info/__contacts/_icon/info__contacts_icon.css);
+@import url(../blocks/info/__contacts/_social-network/info__contacts_social-network.css);

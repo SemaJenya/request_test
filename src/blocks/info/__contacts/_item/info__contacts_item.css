@@ -1,0 +1,5 @@
+.info__contacts_item {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
