@@ -1,0 +1,7 @@
+
+
+@media (max-width: 610px) {
+    .footer__item_invisible {
+        display: none;
+    }
+}

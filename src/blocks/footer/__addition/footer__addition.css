@@ -1,0 +1,14 @@
+.footer__addition {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .footer__addition {
+        display: block;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        align-self: flex-end;
+    }
+}

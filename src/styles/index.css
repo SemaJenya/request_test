@@ -38,6 +38,7 @@
 @import url(../blocks/search/search.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__footer/logo__footer.css);
+@import url(../blocks/logo/__footer/_grey/logo__footer_grey.css);
 
 
 /* FirstScreen */
@@ -170,4 +171,11 @@
 @import url(../blocks/footer/__down/footer__down.css);
 @import url(../blocks/footer/__down/_subtitle/footer__down_subtitle.css);
 @import url(../blocks/footer/__down/_title/footer__down_title.css);
+@import url(../blocks/footer/__social-network/footer__social-network.css);
+@import url(../blocks/footer/__personal/footer__personal.css);
+@import url(../blocks/footer/__help/footer__help.css);
+@import url(../blocks/footer/__catalog/footer__catalog.css);
+@import url(../blocks/footer/__addition/footer__addition.css);
+@import url(../blocks/footer/__item/_invisible/footer__item_invisible.css);
+
 

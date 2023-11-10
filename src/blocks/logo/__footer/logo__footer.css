@@ -3,3 +3,9 @@
     height: 112px;
     margin-right: 190px;
 }
+
+@media (max-width: 1460px) {
+    .logo__footer {
+       display: none;
+    }
+}

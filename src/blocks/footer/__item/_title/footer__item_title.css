@@ -7,3 +7,9 @@
     line-height: normal;
     margin: 0 0 15px 0;
 }
+
+@media (max-width: 900px) {
+    .footer__item_title {
+        font-size: 18px;
+    }
+}

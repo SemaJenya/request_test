@@ -1,0 +1,12 @@
+.logo__footer_grey {
+    display: none;
+}
+
+@media (max-width: 1460px) {
+    .logo__footer_grey {
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin: 0 0 28.16px 0;
+    }
+}

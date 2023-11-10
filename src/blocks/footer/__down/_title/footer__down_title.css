@@ -7,3 +7,10 @@
     line-height: 133.687%;
     margin: 0 0 11px 0;
 }
+
+@media (max-width: 1460px) {
+    .footer__down_title {
+        font-size: 15px;
+        margin: 0;
+    }
+}

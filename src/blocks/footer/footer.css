@@ -3,9 +3,23 @@
     height: 438px;
     display: flex;
     flex-direction: column;
-    padding: 60px 260px 53.29px;
+    padding: 60px 0 53.29px;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
     background-image: url('../../images/footerDELL.svg');
     background-repeat: no-repeat;
-    background-position: top 133px right -36px;
+    background-position: bottom 132px right -36px;
+    align-items: center;
+}
+
+
+@media (max-width: 1460px) {
+    .footer {
+        height: 100%;
+        padding: 30.55px 15px 29.82px;
+        background-color: #F2F2F2;
+        background-image: url('../../images/DELL.svg');
+        background-position: bottom 15.67px right 16px;
+    }
 }

@@ -3,3 +3,10 @@
     height: 37.7px;
     align-items: center;
 }
+
+@media (max-width: 1460px) {
+    .footer__social-network {
+        width: 90px;
+        height: 30px;
+    }
+}

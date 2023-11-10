@@ -7,3 +7,10 @@
     line-height: 150%; /* 27px */
     margin: 0;
 }
+
+@media (max-width: 1460px) {
+    .footer__down_subtitle {
+        font-size: 15px;
+        margin: 0;
+    }
+}
