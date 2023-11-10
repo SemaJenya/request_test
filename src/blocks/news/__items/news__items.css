@@ -4,4 +4,15 @@
     grid-auto-rows: 368px;
     column-gap: 65px;
     row-gap: 35px;
+    justify-content: center;
+}
+
+@media (max-width: 610px) {
+    .news__items {
+        padding: 0 15px;
+        width: calc(100% - 30px);
+        justify-content: center;
+        grid-auto-rows: 293px;
+        row-gap:20px;
+    }
 }

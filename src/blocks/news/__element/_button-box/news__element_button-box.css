@@ -11,3 +11,12 @@
     border-radius: 50%;
     z-index: 2;
 }
+
+@media (max-width: 610px) {
+    .news__element_button-box {
+        top: 160px;
+        right: 18px;
+        width: 55px;
+        height: 55px;
+    }
+}

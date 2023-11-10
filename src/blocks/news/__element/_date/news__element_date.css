@@ -10,5 +10,13 @@
     top: 65px;
     right: -25px;
     border-radius: 15px;
+}
 
+@media (max-width: 610px) {
+    .news__element_date {
+        width: 39px;
+        height: 76px;
+        top: 55px;
+        right: -20px;
+    }
 }

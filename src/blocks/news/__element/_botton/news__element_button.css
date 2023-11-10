@@ -11,3 +11,12 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 610px) {
+    .news__element_button {
+        top: 10px;
+        right: 13px;
+        width: 33px;
+        height: 33px;
+    }
+}

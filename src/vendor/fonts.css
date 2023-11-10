@@ -37,6 +37,14 @@
     font-display: swap;
     src: url(./Euclid\ Circular\ A\ Regular.ttf) format("truetype");
   }
+  
+  @font-face {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(./Euclid\ Circular\ A\ Regular.ttf) format("truetype");
+  }
 
   @font-face {
     font-family: 'Euclid Circular A';

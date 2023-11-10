@@ -11,3 +11,11 @@
     font-weight: 700;
     line-height: 130%; 
 }
+
+@media (max-width: 610px) {
+    .news__element_title {
+        font-size: 25px;
+        line-height: 100%;
+        margin: 0 0 10px 0;
+    }
+}

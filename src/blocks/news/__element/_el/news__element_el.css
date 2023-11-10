@@ -5,3 +5,11 @@
     right: 10px;
     /* width: 97px; */
 }
+
+@media (max-width: 610px) {
+    .news__element_el {
+        top: 167px;
+        right: 8px;
+        width: 78px;
+    }
+}

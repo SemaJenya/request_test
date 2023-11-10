@@ -18,10 +18,15 @@
     }
 }
 
+@media (max-width: 1030px) {
+    .advantages {
+        height: 1546px;
+    }
+}
+
 @media (max-width: 610px) {
     .advantages {
         overflow: hidden;
-        height: 1546px;
         background-position: top 373px left 14px;
         background-size: 335px 121px;
     }

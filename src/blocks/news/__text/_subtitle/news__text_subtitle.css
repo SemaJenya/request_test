@@ -8,3 +8,10 @@
     margin: 0;
     max-width: 721px;
 }
+
+@media (max-width: 610px) {
+    .news__text_subtitle {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+}

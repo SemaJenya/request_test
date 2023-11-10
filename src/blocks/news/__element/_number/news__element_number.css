@@ -8,3 +8,9 @@
     font-weight: 900;
     line-height: normal;
 }
+
+@media (max-width: 610px) {
+    .news__element_number {
+        font-size: 18px;
+    }
+}
