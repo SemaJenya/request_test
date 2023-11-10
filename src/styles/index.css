@@ -146,3 +146,5 @@
 @import url(../blocks/info/__application/_comment-input/info__application_comment-input.css);
 @import url(../blocks/info/__application/_button/info__application_button.css);
 @import url(../blocks/info/__iphone/info__iphone.css);
+@import url(../blocks/info/__iphone/_max/info__iphone_max.css);
+@import url(../blocks/info/__iphone/_mini/info__iphone_mini.css);

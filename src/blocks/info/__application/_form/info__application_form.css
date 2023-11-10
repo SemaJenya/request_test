@@ -3,3 +3,15 @@
     flex-direction: column;
     gap: 52.75px;
 }
+
+@media (max-width: 610px) {
+    .info__application_form {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 610px) {
+    .info__application_form:last-child{
+        gap: 30px;
+    }
+}

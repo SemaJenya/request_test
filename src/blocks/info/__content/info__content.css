@@ -3,3 +3,10 @@
     justify-content: center;
     position: relative;
 }
+
+@media (max-width: 1375px) {
+    .info__content {
+        flex-direction: column;
+        align-items: center;
+    }
+}

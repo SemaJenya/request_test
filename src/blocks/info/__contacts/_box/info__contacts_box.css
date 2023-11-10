@@ -2,3 +2,9 @@
     display: flex;
     gap: 17px;
 }
+
+@media (max-width: 610px) {
+    .info__contacts_box {
+        gap: 8.38px;
+    }
+}

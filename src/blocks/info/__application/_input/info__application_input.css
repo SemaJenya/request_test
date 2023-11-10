@@ -3,11 +3,19 @@
     width: 434px;
     height: 59.25px;
     border: 1.5px solid rgba(242, 242, 242, 0.50);
-    border-radius: 20px;
+    border-radius: 10px;
     color: #F2F2F2;
     font-family: 'Roboto';
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 133.687%;
+}
+
+@media (max-width: 610px) {
+    .info__application_input {
+        width: 315px;
+        height: 40px;
+        font-size: 15px;
+    }
 }

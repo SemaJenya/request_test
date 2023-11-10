@@ -2,3 +2,10 @@
     width: 93.7px;
     height: 37.7px;
 }
+
+@media (max-width: 610px) {
+    .info__contacts_social-network {
+        width: 65px;
+        height: 26px;    
+    }
+}

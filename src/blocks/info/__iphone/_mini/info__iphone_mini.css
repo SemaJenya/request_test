@@ -1,0 +1,9 @@
+.info__iphone_mini {
+    display: none;
+}
+
+@media (max-width: 610px) {
+    .info__iphone_mini {
+        display: block;
+    }
+}

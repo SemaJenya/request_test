@@ -4,3 +4,50 @@
     left: 752px;
     z-index: 5;
 }
+
+
+@media (max-width: 1610px) {
+    .info__iphone {
+        top: 142px;
+        left: 570px;
+    }
+}
+
+@media (max-width: 1375px) {
+    .info__iphone {
+        top: 350px;
+        left: 680px;
+        width: 200px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .info__iphone {
+        top: 350px;
+        left: 470px;
+    }
+}
+
+@media (max-width: 900px) {
+    .info__iphone {
+        top: 350px;
+        left: 420px;
+    }
+}
+
+@media (max-width: 610px) {
+    .info__iphone {
+        top: 415.47px;
+        left: 270px;
+    }
+}
+
+@media (max-width: 480px) {
+    .info__iphone {
+        top: 410.47px;
+        left: 165.6px;
+        width: 190px;
+        height: 260px;
+    }
+}

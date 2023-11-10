@@ -8,3 +8,11 @@
     margin: 0;
     padding-left: 55px;
 }
+
+@media (max-width: 610px) {
+    .info__contacts_content {
+        font-size: 18px;
+        width: 255px;
+        padding-left: 26.97px;
+    }
+}
