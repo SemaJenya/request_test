@@ -419,25 +419,28 @@
                 <div class="info__contacts info__application">
                     <p class="info__application_title">Оставьте заявку</p>
                     <p class="info__application_subtitle">Оставьте свой номер, и мы перезвоним Вам.</p>
-                    <form class="info__application_form">
+                    <form class="info__application_form form">
                         <div class="info__application_input-container">
                             <label class="info__application_label" for="name-input">Ваше имя</label>
-                            <input id="name-input" type="text" class="info__application_input" name="name" required
+                            <input id="name-input" type="text" class="info__application_input form__input_name" name="name" required
                                 minlength="2" maxlength="40">
+                            <span class="name-input-error form__item-error"></span>
                         </div>
                         <div class="info__application_input-container">
                             <label class="info__application_label" for="number-input">Номер телефона</label>
-                            <input id="number-input" type="number" class="info__application_input" name="number"
+                            <input id="number-input" type="number" class="info__application_input form__input_number" name="number"
                                 required>
+                            <span class="number-input-error form__item-error"></span>
                         </div>
                         <div class="info__application_input-container">
                             <label class="info__application_label" for="number-input">Комментарий</label>
                             <input id="comment-input" type="text"
-                                class="info__application_input info__application_comment-input" name="comment"
+                                class="info__application_input info__application_comment-input form__input_comment" name="comment"
                                 maxlength="150">
+                            <span class="comment-input-error form__item-error"></span>
                         </div>
                         <div class="firstscreen__more-details">
-                            <button class="firstscreen__more-details_button">
+                            <button class="firstscreen__more-details_button form__button">
                                 <img src="<%=require('./images/strelka.svg')%>" alt="стрелка" />
                             </button>
                             <p class="firstscreen__more-details_text info__application_button">Заказать</p>
