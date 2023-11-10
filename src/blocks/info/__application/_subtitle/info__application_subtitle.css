@@ -1,0 +1,9 @@
+.info__application_subtitle {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin: 0 0 48px 0;
+}

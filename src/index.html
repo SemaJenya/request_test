@@ -255,7 +255,7 @@
                 </div>
             </div>
         </section>
-<!-- News -->
+        <!-- News -->
         <section class="news">
             <div class="news__container">
                 <div class="news__text">
@@ -276,7 +276,7 @@
 
 
             <!-- Попробовать успеть реализовать через js -->
-            <div class="news__items">                        
+            <div class="news__items">
                 <div class="news__element">
                     <img class="news__element_img" src="<%=require('./images/Rectangle56.svg')%>" />
                     <img class="news__element_el" src="<%=require('./images/Vector33.svg')%>" />
@@ -370,7 +370,7 @@
             </div>
         </section>
 
-<!-- Info -->
+        <!-- Info -->
         <section class="info">
             <div class="info__background"> </div>
             <div class="info__content">
@@ -380,44 +380,71 @@
                     <ul class="info__contacts_list">
                         <li class="info__contacts_item">
                             <div class="info__contacts_box">
-                                <img class="info__contacts_icon" src="<%=require('./images/location.svg')%>" alt="локация"/>
+                                <img class="info__contacts_icon" src="<%=require('./images/location.svg')%>"
+                                    alt="локация" />
                                 <p class="info__contacts_name">Адрес</p>
-                            </div>                       
+                            </div>
                             <div class="info__contacts_container">
                                 <p class="info__contacts_content">Москва, ул. 3-я Хорошевская, дом 2, строение 1</p>
                             </div>
                         </li>
                         <li class="info__contacts_item">
                             <div class="info__contacts_box">
-                                <img class="info__contacts_icon" src="<%=require('./images/sms.svg')%>" alt="смс"/>
+                                <img class="info__contacts_icon" src="<%=require('./images/sms.svg')%>" alt="смс" />
                                 <p class="info__contacts_name">E-mail</p>
-                            </div>                       
+                            </div>
                             <div class="info__contacts_container">
                                 <p class="info__contacts_content">dell_ru@gmail.com</p>
                             </div>
                         </li>
                         <li class="info__contacts_item">
                             <div class="info__contacts_box">
-                                <img class="info__contacts_icon" src="<%=require('./images/call-calling.svg')%>" alt="телефон"/>
+                                <img class="info__contacts_icon" src="<%=require('./images/call-calling.svg')%>"
+                                    alt="телефон" />
                                 <p class="info__contacts_name">Адрес</p>
-                            </div>                       
+                            </div>
                             <div class="info__contacts_container">
                                 <p class="info__contacts_content">+7 495 737-06-01 </p>
                                 <p class="info__contacts_content">+7 495 737-06-01</p>
                             </div>
                         </li>
                         <li class="info__contacts_item">
-                            <img class="info__contacts_social-network" src="<%=require('./images/social-network.svg')%>" alt="social-network"/>              
+                            <img class="info__contacts_social-network" src="<%=require('./images/social-network.svg')%>"
+                                alt="social-network" />
                         </li>
                     </ul>
-
                 </div>
 
 
-                <div class="info__application">
-
+                <div class="info__contacts info__application">
+                    <p class="info__application_title">Оставьте заявку</p>
+                    <p class="info__application_subtitle">Оставьте свой номер, и мы перезвоним Вам.</p>
+                    <form class="info__application_form">
+                        <div class="info__application_input-container">
+                            <label class="info__application_label" for="name-input">Ваше имя</label>
+                            <input id="name-input" type="text" class="info__application_input" name="name" required
+                                minlength="2" maxlength="40">
+                        </div>
+                        <div class="info__application_input-container">
+                            <label class="info__application_label" for="number-input">Номер телефона</label>
+                            <input id="number-input" type="number" class="info__application_input" name="number"
+                                required>
+                        </div>
+                        <div class="info__application_input-container">
+                            <label class="info__application_label" for="number-input">Комментарий</label>
+                            <input id="comment-input" type="text"
+                                class="info__application_input info__application_comment-input" name="comment"
+                                maxlength="150">
+                        </div>
+                        <div class="firstscreen__more-details">
+                            <button class="firstscreen__more-details_button">
+                                <img src="<%=require('./images/strelka.svg')%>" alt="стрелка" />
+                            </button>
+                            <p class="firstscreen__more-details_text info__application_button">Заказать</p>
+                        </div>
+                    </form>
                 </div>
-
+                <img class="info__iphone" src="<%=require('./images/iPhone.png')%>" alt="iPhone-13-Pro-Max" />
             </div>
 
         </section>

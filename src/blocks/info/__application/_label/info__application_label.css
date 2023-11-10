@@ -1,0 +1,13 @@
+.info__application_label {
+    color: #F2F2F2;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 133.687%; 
+    position: absolute;
+    left: 23px;
+    top: -10px;
+    background-color: #292D32;
+    padding: 0 10px;
+}

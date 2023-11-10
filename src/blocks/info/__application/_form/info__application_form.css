@@ -1,0 +1,5 @@
+.info__application_form {
+    display: flex;
+    flex-direction: column;
+    gap: 52.75px;
+}
