@@ -15,7 +15,6 @@
 
 @media (max-width: 610px) {
     .news {
-        height: 1243px;
         padding: 0 15px;
         width: calc(100% - 30px);
         margin-bottom: 120px;

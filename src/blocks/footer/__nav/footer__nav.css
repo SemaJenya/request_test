@@ -14,7 +14,7 @@
 
 @media (max-width: 900px) {
     .footer__nav {
-        grid-template-columns: repeat(2, minmax(141px, 214px));
+        grid-template-columns: 131px 141px;
         grid-auto-rows: 179px;
         grid-auto-rows: auto;
     }
