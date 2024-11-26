@@ -32,8 +32,8 @@
 .logo{height:70px;width:70px}@media (max-width:1030px){.logo{height:60px;width:60px}}
 .logo__footer{height:112px;margin-right:190px;width:112px}@media (max-width:1460px){.logo__footer{display:none}}
 .logo__footer_grey{display:none}@media (max-width:1460px){.logo__footer_grey{display:block;height:70px;margin:0 0 28.16px;width:70px}}
-.firstscreen{background-color:var(--Unnamed-Color,#f2f2f2);display:flex;height:683px;margin-bottom:164px;max-width:1920px;width:100%}@media (max-width:1610px){.firstscreen{align-items:center;flex-direction:column;height:789px;margin-bottom:120px}}
-.firstscreen__main{background-image:url(01a6dfc66ef3d5169802.svg);background-position:top 97.4px left 260px;background-repeat:no-repeat;display:flex;height:683px;max-width:1411px;width:100%}@media (max-width:1270px){.firstscreen__main{background-position:top 18px left 32px;background-size:293px 77px;flex-direction:column;height:593px}}
+.firstscreen{background-color:var(--Unnamed-Color,#f2f2f2);display:flex;height:683px;margin-bottom:164px;max-width:1920px;width:100%}@media (max-width:1610px){.firstscreen{flex-direction:column;height:789px;margin-bottom:120px}}
+.firstscreen__main{background-image:url(01a6dfc66ef3d5169802.svg);background-position:top 97.4px left 260px;background-repeat:no-repeat;display:flex;height:683px;max-width:1411px;width:100%}@media (max-width:1270px){.firstscreen__main{align-items:center;background-position:top 18px left 32px;background-size:293px 77px;flex-direction:column;height:593px}}
 .firstscreen__main_scroll-container{align-items:center;display:flex;flex-direction:column;gap:16.5px;justify-content:flex-end;padding:357px 0 158px 263px;position:relative;width:25px}@media (max-width:1610px){.firstscreen__main_scroll-container{display:none}}
 .firstscreen__main_scroll-text{color:var(--Unnamed-Color,#838383);flex-shrink:0;font-family:Roboto;font-size:16px;font-style:normal;font-weight:300;line-height:normal;margin:0;transform:scale(-1);writing-mode:vertical-lr}
 .firstscreen__main_scroll-img{height:38.5px;width:25px}
