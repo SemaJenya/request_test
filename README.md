@@ -1,10 +1,10 @@
 # Тестовое задание   
 ## Использовалось:
-HTML;
-CSS;
-JavaScript;
-Адаптив под мобильное разрешение;
-[Gh-pages](https://semajenya.github.io/request_test/); 
+HTML;   
+CSS;   
+JavaScript;   
+Адаптив под мобильное разрешение;   
+[Gh-pages](https://semajenya.github.io/request_test/);    
 
 
 
